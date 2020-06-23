@@ -9,8 +9,8 @@ module.exports = {
       new CopyPlugin({
         patterns: [
           {
-            from: path.resolve(__dirname, './extension/manifest.json'),
-            to: path.resolve(__dirname, './dist/manifest.json')
+            from: path.resolve(__dirname, './extension'),
+            to: path.resolve(__dirname, './dist')
           }
         ]
       })
